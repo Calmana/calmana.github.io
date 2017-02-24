@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Calmana</title>
+	<link href="http://calmana.github.io/atom.xml" rel="self"/>
+	<link href="http://calmana.github.io"/>
+	<updated>2017-02-24T13:55:11.273Z</updated>
+	<id>http://calmana.github.io</id>
+	<author>
+		<name>MetaMonastery</name>
+		<email>kei@ourmachine.net</email>
+	</author>
+
+	
+</feed>
