@@ -23,7 +23,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				An anti-relaxation tool.
+				Calmana harnesses hundreds of years of climate system learnings to allow you to read the future of water.
 				"""
 
 			# The website keywords (for SEO) separated by commas
