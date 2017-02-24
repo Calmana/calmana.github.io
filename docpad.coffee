@@ -48,6 +48,7 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/scripts/bootstrap.js"
+				"/scripts/script.js"
 			]
 
 
@@ -61,7 +62,7 @@ docpadConfig = {
 		getPreparedTitle: ->
 			# if we have a document title, then we should use that and suffix the site's title onto it
 			if @document.title
-				"#{@document.title} | #{@site.title}"
+				@site.title
 			# if our document does not have it's own title, then we should just use the site's title
 			else
 				@site.title

@@ -1,17 +1,122 @@
 @font-face {
 	font-family: Klavika;
-	src: url('/KlavikaBold-Plain.ttf'),
+	src: url('/fonts/KlavikaBold-Plain.ttf'), url('/fonts/KlavikaBold-Plain.eot'),
 }
 
 html {
 	background: #000;
-	color: #046595;
+	color: #336f68;
 	font-family: 'Klavika';
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	background: #000;
-	color: #046595;
+	color: #336f68;
 	font-family: 'Klavika';
+	margin: 0;
+	padding: 0;
 }
 
+/* Type views */
+
+.title-0 {
+	background: transparent;
+	position: absolute;
+	font-size: 72px;
+	width: 100%;
+	margin-top: 45vh;
+	text-align: center;
+	z-index: 1;
+}
+
+
+/* City views */
+
+.view-0 {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+}
+
+.view-1 {
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#view-1a {
+	position: relative;
+	background: url('/images/view-1a.png');
+    background-repeat: no-repeat;
+    background-position: center; 	
+	#inner-hover-1a {
+		position: absolute;
+		background: #fff;
+		top: 45%;
+		left: 60%;
+		height: 20%;
+		width: 40%;
+		opacity: .5;
+		cursor: pointer;
+	}
+}
+
+#view-1b {
+	position: relative;
+	background: url('/images/view-1a.png');
+    background-repeat: no-repeat;
+    background-position: center; 	
+	#inner-hover-1b {
+		position: absolute;
+		background: #fff;
+		top: 45%;
+		left: 60%;
+		height: 20%;
+		width: 40%;
+		opacity: .5;
+		cursor: pointer;
+	}
+}
+
+#view-1c {
+	position: relative;
+	background: url('/images/view-1a.png');
+    background-repeat: no-repeat;
+    background-position: center; 	
+	#inner-hover-1c {
+		position: absolute;
+		background: #fff;
+		top: 45%;
+		left: 60%;
+		height: 20%;
+		width: 40%;
+		opacity: .5;
+		cursor: pointer;
+	}
+}
+
+.cards {
+	position: fixed;
+	bottom: 15px;
+	left: 15px;
+	img {
+		display: inline;
+	}
+}
+
+#card-1a {
+	display: none;
+}
+
+#card-1b {
+	display: none;
+}
+
+#card-1c {
+	display: none;
+}
