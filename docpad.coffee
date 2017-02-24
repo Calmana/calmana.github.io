@@ -47,6 +47,7 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"/scripts/jquery-ripples-min.js"
 				"/scripts/bootstrap.js"
 				"/scripts/script.js"
 			]
